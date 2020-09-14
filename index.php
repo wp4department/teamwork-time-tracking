@@ -1,1 +1,1 @@
-<?php // Silence is golden WP
+<?php // Silence is golden
