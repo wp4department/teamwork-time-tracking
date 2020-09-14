@@ -1,0 +1,136 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ a.toplevel_page_rdd-care-plan img {
+    width: 28px;
+    height: auto;
+    padding-top: 2px !important;
+}
+
+/* Table Design */
+
+#customers {
+  border-collapse: collapse;
+  width: auto;
+  margin: 10px auto;
+      width: 1000px;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+    background-color: #b92360;
+  color: white;
+}
+
+.col-md-6 {
+    width: 50%;
+}
+
+.col-md-8 {
+    width: 66.666667%;
+}
+.col-md-4 {
+    width: 33.333333%;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.col-md-6.important-link {
+    padding-top: 35px;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+}
+
+.care-plan-list {
+    display: flex;
+}
+
+.col-md-4.important-link h2 {
+    text-align: center;
+}
+div#care-plan-dashboard {
+    margin-right: 22px;
+        padding: 0px;
+}
+
+h2.care-plan-dashboard-heading {
+    padding: 50px 20px;
+    background-color: #b92360;
+    color: #fff;
+    font-size: 28px;
+}
+
+.care-plan-dashboard-content {
+    padding: 20px;
+}
+
+p.care-plan-title {
+    text-align: center;
+    font-size: 20px;
+}
+
+a.button.email-support-button,
+a.button.email-support-button:hover,
+a.button.google-drive-button,
+a.button.google-drive-button:hover  {
+    padding: 12px 24px;
+    font-weight: 400;
+    color: #fcfcfc;
+    background-color: #b92360;
+    line-height: 18px;
+    font-family: Segoe UI !important;
+    border: 1px solid #ad1754;
+    font-size: 16px;
+    margin:  20px auto;
+    width: 65%;
+    display: block;
+    text-align: center;
+}
+
+a.button.google-drive-button,
+a.button.google-drive-button:hover {
+    border: 1px solid #b0c92c;
+    background-color: rgb(188 213 56);
+}
+
+.col-md-6.care-plan-includes h3,
+.col-md-6.important-link h2,
+.support-task-list-title  {
+    color: rgb(68, 68, 68) !important;
+    font-weight: 500;
+    font-size: 20px;
+    opacity: 0.9;
+}
+
+p.total-time {
+    font-size: 15px;
+    text-align: right;
+}
+
+p.seeting-page-url {
+    font-size: 18px;
+    font-style: italic;
+}
+
+p.seeting-page-url a {
+    color: #b92360;
+}
