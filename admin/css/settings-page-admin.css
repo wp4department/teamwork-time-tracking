@@ -102,7 +102,7 @@ a.button.google-drive-button:hover  {
     font-size: 16px;
     margin:  20px auto;
     width: 65%;
-    display: block;
+    display: table;
     text-align: center;
 }
 

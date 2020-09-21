@@ -50,19 +50,6 @@ curl_close($curl);
 // print_r($rdd_care_plan_settings);
 // echo '</pre>';
 
-if ($website_care_plans === 'Platinum Care Plan') {
-	// echo "Platinum Care Plan";
-} else {
-	echo 'Invalid data';
-}
-
-if (!empty($project_id)) {
-
-} else {
-  echo "Not Provided";
-}
-
-
 ?>
 <div id="care-plan-dashboard" class="welcome-panel care-plan-dashboard" style="background-color: #fff;">
     <div class="care-plan-dashboard-heading-section">
