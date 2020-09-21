@@ -134,3 +134,8 @@ p.seeting-page-url {
 p.seeting-page-url a {
     color: #b92360;
 }
+
+ul.plan-col-1,
+ul.plan-col-2 {
+    width: 50%;
+}
